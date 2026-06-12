@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meuApp",
+    "name": "Lembrete de Remédios",
     "slug": "meuApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.anonymous.meuApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55005fce-a958-4ed3-9fdf-dbcb2a2320e8"
+      }
     }
   }
 }
